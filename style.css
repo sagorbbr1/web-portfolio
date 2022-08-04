@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  padding: 0 140px;
+  padding: 15px 140px;
 }
 .topbar__menu {
   display: flex;
@@ -18,6 +18,7 @@ section {
   font-size: 18px;
   color: #838383;
   font-weight: 400;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .phone__box {
@@ -63,4 +64,123 @@ section {
 .social__link:active .icon {
   color: #75d982;
   transform: scale(1.3);
+}
+
+.header {
+  background-color: #f2f3fb;
+
+  padding: 15px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo img {
+  height: 160px;
+  width: 160px;
+}
+.header__list {
+  display: flex;
+  list-style: none;
+}
+
+.header__list .header__item {
+  position: relative;
+  margin: 8px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.header__list .header__item:hover .header__link {
+  border-top: 1px solid #01d85f;
+}
+.header__list .header__item .header__link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+  color: #bbbbc0;
+  border-top: 1px solid transparent;
+}
+.header__list .header__item:hover .dropdown {
+  display: block;
+  visibility: visible;
+}
+
+/* Dropdown */
+
+.dropdown {
+  width: 170px;
+  background-color: #67676d8d;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  visibility: hidden;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.dropdown ul {
+  list-style: none;
+}
+.dropdown .drop__item {
+  margin-top: 10px;
+
+  display: inline-block;
+  width: 100%;
+}
+.dropdown .drop__item:first-child {
+  margin-top: 0;
+}
+.dropdown .drop__item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 14px;
+
+  color: #fff;
+}
+.dropdown .drop__item:hover {
+  background-color: #959593;
+}
+
+.hire__me {
+  text-align: center;
+  width: 150px;
+  border: none;
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #7635f5;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow: inset 0 0 0 0 #01d85f;
+}
+.hire__me:hover {
+  box-shadow: inset 150px 0 0 #01d85f;
+}
+
+.hero {
+  height: 75vh;
+  padding: 15px 150px;
+  background-color: #f2f3fb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__text {
+  width: 60%;
+  font-size: 37px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.highlighted__name {
+  color: #7635f5;
+}
+
+.hero__img {
+  text-align: center;
+}
+.hero__img img {
+  width: 90%;
 }
