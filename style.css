@@ -16,6 +16,7 @@ body {
   color: #838383;
   font-weight: 400;
   padding: 15px 140px;
+  border-top: 1px solid #ddd;
 }
 
 .phone__box {
@@ -205,4 +206,107 @@ body {
   display: block;
   padding: 10px 14px;
   margin-top: 30px;
+}
+
+.about__me {
+  padding: 50px 140px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.demo__video {
+  align-self: center;
+}
+.about__text {
+  padding: 20px;
+}
+.about__me .about__text h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #7635f5;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.about__me .about__text h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+}
+.about__me .about__text p {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+}
+.first__box,
+.second__box,
+.third__box {
+  padding: 14px;
+  background-color: #fafbfc;
+  border: 1px solid #eee;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.48);
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.first__box:hover,
+.second__box:hover,
+.third__box:hover {
+  background-color: #7635f5;
+  color: #fff;
+  transform: scale(0.8);
+}
+
+.services {
+  display: flex;
+  padding: 100px 140px;
+  text-align: center;
+  background-color: #f2f3fb;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+
+  justify-content: center;
+  align-items: stretch;
+}
+
+.first__service-box,
+.second__service-box,
+.third__service-box {
+  padding: 25px;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  margin: 15px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.48);
+  transition: all 0.3s;
+}
+
+.service__icon {
+  font-size: 40px;
+  color: #7635f5;
+  margin-bottom: 12px;
+}
+
+.service-box h3 {
+  font-size: 25px;
+  color: #454545;
+  margin-bottom: 10px;
+}
+
+.service-box:hover {
+  transform: scale(0.9);
 }
