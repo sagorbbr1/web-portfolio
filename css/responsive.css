@@ -97,9 +97,7 @@
   .hero__img img {
     width: 30%;
   }
-  .testimonial p {
-    /* font-size: 1.4rem; */
-  }
+ 
   .services {
     flex-direction: column;
   }
