@@ -1,0 +1,158 @@
+
+@media screen and (max-width: 75em) {
+
+  .tube__video {
+    width: 100%
+  }
+
+}
+
+
+@media screen and (max-width: 70em) {
+  section {
+    padding: 4rem 5rem;
+  }
+
+  .header, .footer {
+    padding: 0 3rem;
+
+  }
+  .header__list .header__item {
+    margin: .8rem 1.2rem;
+
+  }
+  .header__list .header__item .header__link {
+    padding: .6rem .9rem;
+  }
+  .hero {
+      clip-path: none;
+      padding: 3rem;
+  }
+  .about__me {
+
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+  .hire__me {
+    width: 10rem;
+    padding: 1rem 1.5rem;
+
+  }
+  .services__section {
+    clip-path: none;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 62.5em) {
+
+}
+
+@media screen and (max-width: 56.25em) {
+
+
+  .header__logo img {
+    height: 10rem;
+    width: 10rem;
+    margin-top: -2rem;
+}
+
+.hire__me {
+  display: none;
+  visibility: hidden;
+}
+.header__menu {
+  margin-bottom: 1.3rem;
+}
+
+.header {
+  flex-direction: column;
+}
+.hero {
+  border: none;
+}
+.about__text {
+  padding: 5rem;
+
+}
+
+}
+
+@media screen and (max-width: 50em) {
+  html {
+     font-size: 50%
+  }
+  .btn {
+    padding: .8rem;
+  }
+
+  .hero {
+    height: 100vh;
+    flex-direction: column;
+  }
+  .hero__img img {
+    width: 30%;
+  }
+  .testimonial p {
+    /* font-size: 1.4rem; */
+  }
+  .services {
+    flex-direction: column;
+  }
+  .tube__video {
+    height: 24rem;
+    width: 35rem;
+  }
+  .my__portfolio {
+    flex-direction: column;
+  }
+  .my__testimonial {
+    flex-direction: column;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .my__info {
+    padding: 1.5rem .8rem;
+  }
+  .my__info h4 {
+    font-size: 2rem;
+  }
+  .my__info h5 {
+    font-size: 1.8rem;
+  }
+  .my__info > p {
+    font-size: 1.8rem;
+  }
+  .telegram p,
+  .facebook  p,
+  .mail p {
+    font-size: 1rem;
+  }
+  .input__group {
+    margin-bottom: .8rem;
+  }
+.input__group label{
+  font-size: 1.2rem;
+}
+.input__group input, textarea {
+
+    width: 80%;
+    padding: .6rem 1rem;
+    font-size: 1.5rem;
+}
+.my__contact__form {
+  padding: 1.5rem;
+}
+}
+
+@media screen and (max-width: 31.25em) {
+  .header__menu {
+    display: none;
+    visibility: hidden;
+  }
+}
