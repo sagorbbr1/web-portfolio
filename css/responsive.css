@@ -14,10 +14,10 @@
     padding: 0 3rem;
   }
   .header__list .header__item {
-    margin: 0.8rem 1.2rem;
+    margin: 0.5rem 0.8rem;
   }
   .header__list .header__item .header__link {
-    padding: 0.6rem 0.9rem;
+    padding: 0.5rem 0.7rem;
   }
   .hero {
     clip-path: none;
@@ -74,11 +74,20 @@
   }
 
   .hero {
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
+    justify-content: center;
+  }
+  .hero__img {
+    text-align: end;
   }
   .hero__img img {
-    width: 30%;
+    width: 45%;
+  }
+  .hero__text {
+    font-size: 2.5rem;
+
+    letter-spacing: 1px;
   }
 
   .services__section {
