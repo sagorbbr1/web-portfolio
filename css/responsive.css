@@ -146,6 +146,9 @@
   .my__contact__form {
     padding: 1.5rem;
   }
+  .phone__box {
+    font-size: 0.7rem;
+  }
   .adress__box {
     visibility: hidden;
     display: none;
