@@ -21,7 +21,7 @@
   }
   .hero {
     clip-path: none;
-    padding: 3rem;
+    padding: 2rem 1rem;
   }
   .about__me {
     justify-content: space-around;
