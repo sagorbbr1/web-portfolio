@@ -74,9 +74,10 @@
   }
 
   .hero {
-    height: 80vh;
+    height: 60vh;
     flex-direction: column;
     justify-content: center;
+    padding: 2rem;
   }
   .hero__img {
     text-align: end;
