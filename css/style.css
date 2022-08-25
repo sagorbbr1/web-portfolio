@@ -49,11 +49,13 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+    margin-bottom: 1.2rem;
 }
 
 .header__logo img {
-  height: 16rem;
-  width: 16rem;
+  height: 13rem;
+  width: 13rem;
+    margin-bottom: 1rem;
 }
 .header__list {
   display: flex;
